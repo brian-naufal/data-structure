@@ -1,5 +1,5 @@
 public class doubly {
-    nodes node = new nodes();
+    node node = new node();
 
 }
 

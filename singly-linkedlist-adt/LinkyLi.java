@@ -1,7 +1,8 @@
 import java.util.LinkedList;
 
 public class LinkyLi {
-    private node head;
+    private node head, tail;
+    private int size;
 
     public void addFirst(int data) {
         node nN = new node(data);
