@@ -56,7 +56,7 @@ public class SSL {
                 head = tail = null;
             } else {
                 Node current = head;
-                while (current.next != null && current.next != tail) {
+                while (current.next != tail) {
                     current = current.next;
                 }
                 current.next = null;
